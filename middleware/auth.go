@@ -18,6 +18,7 @@ func CORSMiddleware(next http.Handler) http.Handler {
 			"http://localhost:5173",
 			"http://localhost:3000",
 			"http://127.0.0.1:5173",
+			"https://setup-for-me.onrender.com",
 		}
 
 		origin := r.Header.Get("Origin")
